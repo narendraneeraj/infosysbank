@@ -1,18 +1,26 @@
-<header class="container py-3 border-bottom">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="{{ '/' | relative_url }}">My Finance Site</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-          <span class="navbar-toggler-icon"></span>
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
+    <div class="container container-fluid">
+        <!-- Logo / Brand --><a href="/"
+            class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"><img
+                src="/assets/image/logo.png" alt="logo" width="30px"><span class="fs-4">Infosysbank</span></a>
+
+        <!-- Hamburger Menu (visible on small screens) -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
+
+        <!-- Navbar Links -->
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="{{ '/' | relative_url }}">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="{{ '/about' | relative_url }}">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="{{ '/contact' | relative_url }}">Contact</a></li>
-          </ul>
+            <ul class="nav nav-pills">
+                <li class="nav-item"></li>
+                <li class="nav-item"><a href="#" class="nav-link">Credit Card</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Home Loan Calculator</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Student Credit Card</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Business Credit Card</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Finance Dictionary</a></li>
+                </li>
+            </ul>
         </div>
-      </div>
-    </nav>
-  </header>
-  
+    </div>
+</nav>

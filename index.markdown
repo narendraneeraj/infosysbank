@@ -1,9 +1,9 @@
 ---
 layout: default
-title: All Credit Card USA | Infosysbank
-description: "Discover the best credit card options in the USA at Infosysbank.com. Compare features, benefits, and apply easily for your ideal credit card today."
+title: Compare Credit Cards Instantly – Find Low APR, Cashback & Rewards | InfosysBank
+description: "Explore top credit cards in the USA at InfosysBank.com. Compare low APR, cashback, rewards & more. Find your perfect card and apply online today!"
 ---
-
+<br>
 <div class="container py-5">
    <h1 class="text-center">Compare Credit Card in USA</h1>
     <p class="text-center">Compare the best deals in each category. You can feel assured when you apply.</p>
